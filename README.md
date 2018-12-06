@@ -1,2 +1,2 @@
 # study_repo
-Repository to learn GitHub.
+Repository for notes on programming.
