@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="basic_sidebar_toggle_style.css">
+
+    <title>Basic Sidebar Toggle</title>
+  </head>
+  <body>
+
+    <!-- Need to adjust so when button is clicked on a small screen the contents drop out to a smaller menu. -->
+    <div class="wrapper">
+      
+      <!-- Navbar -->
+      <nav class="bg-light" id="sidebar">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header text-center mt-4">
+          <h4>Sidebar Header</h4>
+        </div>
+
+        <!-- Sidebar Components -->
+        <ul class="nav flex-sm-column ml-4">
+
+          <p class="mt-4 mb-0 text-secondary">Main Links</p>
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+
+          <!-- An alternative way to create navigation links -->
+          <p class="mt-4 mb-0 text-secondary">Other Links</p>
+          <a class="nav-link" href="#">Overview</a>
+          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#">Events</a>
+          <a class="nav-link" href="#">Resources</a>
+          
+        </ul>
+
+      </nav>
+
+      <div class="content">
+        <nav class="navbar navbar-expand-xl navbar-light bg-white shadow-sm p-2">
+            <button type="button" class="btn" id="sidebarCollapse"> <span class="navbar-toggler-icon"></span></button>
+            <a class="nav-link ml-auto" href="#">Home</a> <!-- Use ml-auto to align to right -->
+            <a class="nav-link" href="#">Sign-In</a>
+            <a class="nav-link" href="#">E-mail</a>
+        </nav>
+        <div class="container-fluid mt-4">
+          <h1>Main Content</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="sidebar_toggle.js"></script>
+  </body>
+</html>
+
